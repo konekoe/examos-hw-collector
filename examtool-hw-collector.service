@@ -1,0 +1,12 @@
+[Unit]
+Description=examtool hw collector service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/examtool_hw_collector
+RemainAfterExit=true
+
+
+[Install]
+WantedBy=multi-user.target

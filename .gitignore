@@ -1,0 +1,11 @@
+# exclude usr dir if debug compiled
+usr/**
+
+# exclude object files
+*.o
+
+# exclude executable
+examtool_hw_collector
+
+# exclude vscode project files
+.vscode/**
